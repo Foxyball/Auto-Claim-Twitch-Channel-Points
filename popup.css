@@ -1,0 +1,30 @@
+body {
+    width: 200px;
+    height: 140px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #copyright {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 10px;
+    color: #888;
+  }
+  
