@@ -1,13 +1,14 @@
+/* Hristo Sabev */
+
 function clickChannelPointsButton() {
-    // Replace this selector with the actual selector for the channel points button on Twitch
     const channelPointsButton = document.querySelector('.community-points-summary > *:nth-child(2) button');
   
     if (channelPointsButton) {
       channelPointsButton.click();
-      console.log('Channel points claimed!');
-    } else {
+      // console.log('Channel points claimed!');
+    } /*else {
       console.log('Channel points button not found.');
-    }
+    }*/
   }
   
   chrome.storage.sync.get('enabled', function (data) {
